@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,ul,ol,p,img {
+  margin-bottom: 1.5rem;
+}
+body {
+  background: url(assets/wedding-landing-background.png)
+}
