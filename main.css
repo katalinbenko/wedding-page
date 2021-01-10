@@ -100,7 +100,7 @@ a:hover {
 /* =====MAIN STYLES===== */
 
 h2, h3 {
-  font-weight: 600;
+  font-weight: 500;
 }
 }
 .blurb div {
@@ -194,8 +194,63 @@ footer small {
   line-height: 1.5;
 }
 
+/* =====RESPONSIVE===== */
 
+@media (min-width:768px) {
+    
+  .cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-text {
+    padding: 2rem;
+    border-color: hsla(100,0%,0%,.5); 
+    border-radius: 4px;
+  }
+  .hero-text-wrapper {
+    width: 50%;
+  }
+  .hero-text h1 {
+    font-size: 7rem;
+  }    
+  .tagline {
+    text-transform: uppercase;
+  }
+  .blurb {
+    display: inline-block; 
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }  
+  .blurb::after {
+    display: none;
+  }
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) {
 
+  .question-group {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .question-group::after {
+    display: none;
+  }
+
+  .question-group h3 {
+    text-align: left;
+  }
+  .footer {
+    min-height: 7vh;
+  }
+}
 
 
 
