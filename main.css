@@ -97,22 +97,102 @@ a:hover {
   vertical-align: middle;
   margin: 0 .5rem;
 }
-  
+/* =====MAIN STYLES===== */
 
+h2, h3 {
+  font-weight: 600;
+}
+}
+.blurb div {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+}
+.gifts img,
+.blurb img {
+  width: 8rem;
+  height: auto;
+}
+.blurb::after {
+  content:"";
+  display: block;
+  background-color: #444349;
+  height: 2px;
+  width: 8rem;
+  margin: 2rem auto;
+}
+.program {
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  width: 100vw;
+}
+.program h2 {
+  margin-top: 1rem;
+}
+.program-wrapper,
+.question,
+.answer {
+  text-align: left;
+}
+.program-wrapper p {
+  font-style: italic;
+}
+.gifts p {
+  font-weight: 600;  
+}
+.faq {
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  width: 100vw;
+}
+.question,
+.answer {
+  font-family: 'Mulish', sans-serif;
+}
+.question {
+  font-weight: 600;
+}
+.answer {
+  font-weight: 500;
+}
+.question-group::after {
+  content:"";
+  display: block;
+  background-color: #d2ba87;
+  height: 2px;
+  width: 8rem;
+  margin: 2rem auto;
+}
+.contact {
+  font-weight: 600;
+  padding: 0 2rem 0 2rem;
+}
 
+/* =====FOOTER STYLES===== */
 
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #606060;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: table;
+  text-align: center;
+  font-size: .875rem;
+}
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+}
+footer p {
+  margin-bottom: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+footer small {
+  line-height: 1.5;
+}
 
 
 
